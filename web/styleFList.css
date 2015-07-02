@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2015, 11:42:18 AM
+    Author     : cgl
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2015, 10:15:37 AM
+    Author     : cgl
+*/
+body{
+    background-color: #B2E0FF;
+    font-family: calibri, arial;
+}
+#mainContainer{
+	
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+        
+}
+
+#section2{
+    margin-top: 9px;
+    width: 750px;
+    float: right;
+    margin-right: 25px;
+    
+}
+a {text-decoration:none}
+.navButton{
+    margin-right: 15px;
+    color: midnightblue;
+    
+}
+#section1{
+    margin-top: 20px;
+    width: 200px;
+    text-align: left;
+    float: left;
+}
+#upperPart{
+    margin-top: 10px;
+    
+}
+#lowerPart{
+    margin-top: 50px;
+    background-color: #C1E6FF;
+    width: 155px;
+    height: 170px;
+   
+    border-style: solid;
+    border-color:#007AA3; 
+    border-width: 2px;
+}
+#logout{
+    text-align:right;
+}
+#friendList{
+    
+    text-align: left;
+    background-color: white;
+}
+#list1{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+#filterbox{
+    margin-top: 20px;
+    text-align: center;
+}
+.box1{
+    width: +70%;
+}
+#picsec{
+    width: 130px;
+    height: 130px;
+    text-align: center;
+}
+#footer{
+        
+	clear: both;
+        position:absolute;
+        bottom:0;
+	text-align: center;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+        font-family: calibri, arial;
+}

@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2015, 10:15:37 AM
+    Author     : cgl
+*/
+body{
+     background-image: url("https://dorindaduclos.files.wordpress.com/2014/08/sunrise-above-the-clouds-nature_112825.jpg");
+    font-family: calibri, arial;
+}
+img{
+    visibility: visible;
+}
+#mainContainer{
+	
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+        
+}
+
+#section2{
+    margin-top: 9px;
+    width: 700px;
+    float: right;
+    margin-right: 25px;
+    
+}
+a {text-decoration:none}
+
+#section1{
+    margin-top: 20px;
+    width: 250px;
+    text-align: left;
+    float: left;
+}
+#upperPart{
+    margin-top: 20px;
+   
+}
+#lowerPart{
+    top: 0;
+   
+    font-weight: bold;
+    color: #00003D;
+    background-color: #FFF4FF;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 15px;
+    padding:5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+li:before {
+content: "  |  ";
+}
+li:first-child:before {
+content: none;
+}
+li:last-child:before {
+content: none;
+}
+
+#tweetbox{
+    margin-top: 24px;
+    text-align: center;
+}
+
+.box1{
+    width: +80%;
+    height: 30px;
+    
+}
+#picsec{
+    margin-top: 10px;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+}
+.logoutbutton{
+    float: right;
+    margin-right:25px;
+    background-color: peachpuff;
+}
+#footer{
+        
+	clear: both;
+        position:absolute;
+        bottom:0;
+	text-align: center;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+        font-family: calibri, arial;
+}
+#newsfeed{
+    text-align: left;
+    color: purple;
+    margin-top:0;
+    font-size: 105%;
+    background-color: #FFE0FF;
+}
+#infosec{
+    color:purple;
+    font-weight: bold;
+}
+#news{
+    
+    color: #7A007A;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 130%;
+}
+.send {
+   border-top: 1px solid #96d1f8;
+   background: #d665b2;
+   background: -webkit-gradient(linear, left top, left bottom, from(#723e9c), to(#d665b2));
+   background: -webkit-linear-gradient(top, #723e9c, #d665b2);
+   background: -moz-linear-gradient(top, #723e9c, #d665b2);
+   background: -ms-linear-gradient(top, #723e9c, #d665b2);
+   background: -o-linear-gradient(top, #723e9c, #d665b2);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.send:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.send:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }

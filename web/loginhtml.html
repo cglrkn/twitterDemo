@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type ="text/css" href="styleLogin.css" />
+
+    </head>
+    <body>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="validateLogin.js"></script>
+      
+        <div id="container">
+            <div id="header">
+                
+            </div>
+            <div id="content">
+                           
+               <div id="loginpanel">
+                 
+                   <form class="logp" method="post" action="homepage.html">
+
+                    <label class="labels">Username:</label><br/>
+                 <input class="inputs" type="text" name="email" value="" id="email">
+                 <br/>
+                 <label class="labels">Password:</label><br/>
+                 <input class="inputs" type="password" name="password" value="" id="password">
+                 <br/>
+                 <input class="submit" type="button" id="submit" name="submit" value="Submit">
+
+                 </form>
+                   
+                   <form class="regC" method="POST" action="loginAfterRegister.html">
+                 <p class="newR">Are you new? Register Here</p>
+                 <label class= "labels"> Username:</label><br/>
+                 <input class="inputs" type="text" name="username1" value="" id="username1">
+                 <br/>
+                 <label class="labels">Password: </label><br/>
+                 <input class="inputs" type="text" name="password1" value="" id="password1">
+                 <br/>
+                 <label class= "labels"> Full Name:</label><br/>
+                 <input class="inputs"  type="text" name="fullname" value="" id="fullname">
+                 <br/>
+                 <input class="reg" type="button" id="register" name="register" value="Register">
+
+                 </form>
+                </div>
+                <div id="explain">
+                    <h2>Welcome to the site</h2>
+                    <p>Here you can tweet or read others' tweets</p>
+                    <p>Enjoy!</p>
+                </div>
+                <div id="footer">
+                    Copyright &copy; 2015 cagla
+                </div>
+        </div>
+     </div>
+    </body>
+</html>
